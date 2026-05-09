@@ -47,3 +47,32 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.positai
+
+
+
+# Hugo output
+public/
+resources/
+
+# blogdown / Hugo caches
+.hugo_build.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Quarto/bookdown leftovers if they appear later
+_book/
+_cache/
+
+# Netlify local
+.netlify/
+
+# Optional: generated data
+# Uncomment later ONLY if posts.json is regenerated automatically
+# data/posts.json
