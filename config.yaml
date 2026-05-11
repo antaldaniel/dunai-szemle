@@ -8,6 +8,7 @@ permalinks:
   post: /blog/:year-:month-:day-:title/
 params:
   author: Dunai Szemle szerkesztők
+  favicon: "duna.png"
   bitbucket: https://bitbucket.org/parsiya/
   continueReadingText: Tovább &rarr;
   description: ''
@@ -28,7 +29,7 @@ params:
   sidebarRecentLimit: 5
   sidebarText: 'Független magyar közéleti, kulturális és regionális szemle
   a Duna mellől.'
-  subtitle: A Duna összeköti Európa közepét
+  subtitle: Áttekintés Európa közepéről
   textrss: false
   truncate: true
   twitter: https://twitter.com/cryptogangsta/
