@@ -1,43 +1,57 @@
 baseurl: https://example.com
 disablePathToLower: false
-languageCode: en-us
-title: Site title
+languageCode: hu
+title: Dunai szemle
 theme: Hugo-Octopress
 paginate: 6
 permalinks:
   post: /blog/:year-:month-:day-:title/
 params:
-  author: Author
+  author: Dunai Szemle szerkesztők
   bitbucket: https://bitbucket.org/parsiya/
-  continueReadingText: Would you like to know more? &rarr;
+  continueReadingText: Tovább &rarr;
   description: ''
+  customCSS:
+    - css/custom.css
   disableGoogleFonts: true
   disableReadingTime: false
   generateTaxonomyList: true
   github: https://github.com/parsiya/Hugo-Octopress
   navigationNewWindow: true
-  notFoundHeader: There's nothing here
+  notFoundHeader: Itt nem található semmi
   notFoundText: 'Please either go back or use the navigation/sidebar menus.\r\n  '
   rss: true
   searchEngineURL: https://www.google.com/search
-  sidebarHeader: Sidebar Header
+  sidebarHeader: Újdonságok
   sidebarMenuEnabled: true
-  sidebarMenuHeader: Sidebar Links
+  sidebarMenuHeader: Linkek
   sidebarRecentLimit: 5
-  sidebarText: 'Here''s a [link to example.net](https://www.example.net)\r\n\r\n  New
-    paragraph\r\n\r\n  Another paragraph which has two spaces in the end to create
-    a new line using markdown  \r\n  New line but not a new paragraph\r\n  '
-  subtitle: Subtitle appears under the website title
+  sidebarText: 'Független magyar közéleti, kulturális és regionális szemle
+  a Duna mellől.'
+  subtitle: A Duna összeköti Európa közepét
   textrss: false
   truncate: true
   twitter: https://twitter.com/cryptogangsta/
 menu:
   main:
-    - Name: example.net
+    - name: "'26"
+    - Name: Gazdaság
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Társadalom
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Kult
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: "Tech"
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Duna
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Európa
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Klíma
+      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+    - Name: Substack
       URL: https://www.example.net/
       weight: -5
-    - Name: This theme on Github
-      URL: https://www.github.com/parsiya/hugo-octopress
   sidebar:
     - Name: example.net
       URL: https://www.example.net
@@ -45,6 +59,9 @@ menu:
     - Name: This theme on Github
       URL: https://www.github.com/parsiya/hugo-octopress
       weight: 1
+    - Name: Rólunk
+      URL: /rolunk/
+      weight: 2
 markup:
   highlight:
     style: solarized-dark
