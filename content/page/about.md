@@ -4,18 +4,19 @@ title: Rólunk
 url: /rolunk/
 ---
 
-This is a single page. To create a page similar to this:
+Felszabadult Magyarország, és Budapest újra központja a Duna-medencének.
+Hogyan lesz ezután?  
 
-1. Create a new markdown file in `contents/page/about.md`.
-    1. Alternatively, create a [page bundle][page-bundle-link] `contents/page/about/index.md`.
-2. In the frontmatter of the page, set the value of `url` to your desired relative path.
-    1. E.g., for this page we have `url = "/about/"`.
-3. Now you can access the website at `baseurl/about` and you can link to it from the main menu or sidebar using the relative path.
+A `Dunai szemle` célja az, hogy először magyarul, aztán angolul szemlézze azokat
+az elképzeléseket, amelyekkel Magyarország úgy újulahat meg, hogy a Duna által 
+összekötött régiók, országok és népek konstruktív motorja lehessen. 
 
-[page-bundle-link]: https://gohugo.io/content-management/page-bundles/
+A _Dunai szemle_ egy kísérleti kiadvány, amelyet egyelőre a szerkesztők válogatnak, 
+nem lektorálnak. A lektorálás folyamata a következő:
 
-Linkify URL: https://example.net. It opens in a new tab only if using
-Blackfriday and not Goldmark (at the time of writing).
+1. Feltöltenek egy tematikaileg releváns, szerzővel, címmel, alcímmel, rövid 
+kivonattal, dátumokkal ellátott magyar vagy angol nyelvű anyagot a fenti repozitóriumba.
+2. Szerkesztőink és felkért szerzőink írnak egy rövid szemléző írást az anyagból,
+amennyiben azt erre megfelelő minőségűnek, fontosságúnak ítélik.
 
-markdown URL: [example.net](https://example.net). It should open in a new tab
-with both Blackfriday and Goldmark.
+További információk a [Szemle](/szemle/) oldalon.
