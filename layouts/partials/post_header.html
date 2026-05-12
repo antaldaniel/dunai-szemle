@@ -1,8 +1,34 @@
 {{- /* Partial that generates the header/title for each post */ -}}
 
 <header>
-  <p class="meta">{{ .Date.Format "2006-01-02" }}
-    {{ if not .Site.Params.disableReadingTime }} - {{ .ReadingTime }} perc olvasás {{ end }}
+  <p class="meta">
+  {{ .Date.Format "2006-01-02" }}
+
+  {{ if not .Site.Params.disableReadingTime }}
+    · {{ .ReadingTime }} perc olvasás </br>
+  {{ end }}
+
+   {{ $hasPrevious := false }}
+
+  {{ with .Params.author }}
+  {{ if $hasPrevious }} · {{ end }}
+  Szerző: {{ . }}
+  {{ $hasPrevious = true }}
+  {{ end }}
+
+  {{ with .Params.curator }}
+   {{ if $hasPrevious }} · {{ end }}
+  Kurátor: {{ . }}
+  {{ $hasPrevious = true }}
+  {{ end }}
+
+  {{ with .Params.editor }}
+  {{ if $hasPrevious }} · {{ end }}
+  Szerkesztő: {{ . }}
+  {{ end }}
+
+
+   <br/>
     {{- /*
     {{ if or .Site.Config.Services.Disqus.Shortname (isset .Site "disqusshortname") }} - <a href="{{ .Permalink }}#disqus_thread">Komment</a>{{ end }}
 
@@ -13,10 +39,15 @@
     {{- /* in order to make category URLs work, we need to urlize them and
         convert them to lowercase
         e.g. .NET Remoting -urlize-> .NET-Remoting -lowercase-> .net-remoting */ -}}
-      - {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize | lower }}/">{{ . }} </a>{{ end }}
+      {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize | lower }}/">{{ . }} </a>{{ end }}
     {{ end }}
   </p>
   <h1 class="entry-title">
     {{ if ($.Scratch.Get "isHome") }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ else }} {{ .Title }} {{ end }}
   </h1>
+  {{ with .Params.subtitle }}
+  <h2 class="entry-subtitle">
+    {{ . }}
+  </h2>
+  {{ end }}
 </header>

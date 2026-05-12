@@ -1091,6 +1091,14 @@ article header h1 a {
 article header h1 a:hover {
     text-decoration: underline
 }
+.entry-subtitle {
+    margin-top: -0.4em;
+    margin-bottom: 0.8em;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #666;
+    line-height: 1.4em;
+}
 article header p {
     font-size: .9em;
     color: #aaa;

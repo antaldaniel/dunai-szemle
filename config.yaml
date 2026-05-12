@@ -19,8 +19,8 @@ params:
   generateTaxonomyList: true
   github: https://github.com/parsiya/Hugo-Octopress
   navigationNewWindow: true
-  notFoundHeader: Itt nem található semmi
-  notFoundText: 'Please either go back or use the navigation/sidebar menus.\r\n  '
+  notFoundHeader: Itt még nem található semmi
+  notFoundText: 'Lépjen vissza a böngészőben, használja a Rovatok vagy Keresés funkciót.\r\n  '
   rss: true
   searchEngineURL: https://www.google.com/search
   sidebarHeader: Újdonságok
@@ -36,36 +36,45 @@ params:
 menu:
   main:
     - name: "'26"
+      URL: /categories/2026/
+      weight: -4
     - Name: Gazdaság
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
+      URL: /categories/gazdas%C3%A1g/
+      weight: 2
     - Name: Társadalom
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: Kult
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: "Tech"
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: Duna
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: Európa
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: Klíma
-      URL: /categories/kl%C3%ADmav%C3%A1ltoz%C3%A1s/
-    - Name: Substack
-      URL: https://www.example.net/
-      weight: -5
-  sidebar:
-    - Name: example.net
-      URL: https://www.example.net
-      weight: 0
-    - Name: This theme on Github
-      URL: https://www.github.com/parsiya/hugo-octopress
+      URL: /categories/t%C3%A1rsadalom/
       weight: 1
+    - Name: Kult
+      URL: /categories/kult%C3%BAra/
+      weight: 3
+    - Name: "Tech & Tudomány"
+      URL: /categories/tech/
+      weight: 4
+    - Name: Duna
+      URL: /categories/duna/
+      weight: 20
+    - Name: Európa
+      URL: /categories/eur%C3%B3pa/
+      weight: 19
+    - Name: Környezet
+      URL: /categories/k%C3%B6rnyezet"
+      weight: 5
+    - Name: "Substack →"
+      URL: https://dunaiszemle.substack.com/
+      weight: 99
+  sidebar:
+    - Name: Blog
+      URL: https://dunaiszemle.substack.com/
+      weight: 0
     - Name: Rólunk
       URL: /rolunk/
+      weight: 1
+    - Name: Szemle
+      URL: /szemle/
       weight: 2
 markup:
   highlight:
-    style: solarized-dark
+    style: github
   tableOfContents:
     endLevel: 8
     startLevel: 1
