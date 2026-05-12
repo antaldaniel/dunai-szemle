@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://dunai-szemle.netlify.app/
 disablePathToLower: false
 languageCode: hu
 title: Dunai szemle
@@ -9,7 +9,7 @@ permalinks:
 params:
   author: Dunai Szemle szerkesztők
   favicon: "duna.png"
-  bitbucket: https://bitbucket.org/parsiya/
+  bitbucket: https://github.com/antaldaniel/dunai-szemle
   continueReadingText: Tovább &rarr;
   description: ''
   customCSS:
@@ -32,7 +32,6 @@ params:
   subtitle: Áttekintés Európa közepéről
   textrss: false
   truncate: true
-  twitter: https://twitter.com/cryptogangsta/
 menu:
   main:
     - name: "'26"
