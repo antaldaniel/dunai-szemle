@@ -11,9 +11,9 @@ tags:
   - kémek
 ---
 
-Panyi Szabolcs and Nikita Khava azt írják a VSquaren, és magyarul Panyi Szabolcs Substackjén, 
+Panyi Szabolcs és Nikita Khava azt írják a VSquaren, és magyarul Panyi Szabolcs Substackjén, 
 hogy Magyarország csendben kiutasított egy diplomáciai fedésben működő orosz kémet, aki
-jobboldali és külpolitikai agytröszt öket próbált behálózni, informátorokat tartott 
+jobboldali és külpolitikai agytröszt, őket próbált behálózni, informátorokat tartott 
 és potenciális célszemélyeket keresett beszervezéshez.
 
 
