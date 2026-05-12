@@ -6,8 +6,7 @@ subtitle: "Eredeti forrás: kreatív"
 description: >
   Meg kell állapítanunk a szakmaiság közös alapjait: fiatal filmesek 17 pontban szedték össze javaslataikat és együttműködésre kérik a TISZA-kormány leendő kulturális minisztériumát.
 
-date: 2026.04.17
-
+date: 2026-04-17
 
 curator: "Antal Dániel"
 
