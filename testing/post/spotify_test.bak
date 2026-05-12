@@ -7,20 +7,27 @@ description: Az európai zenei ajánlórendszerek nem pusztán technológiai, ha
 
 date: 2026-05-11
 
-author: "Antal Dániel"
-curator: "Kovács Júlia"
-editor: "Nagy Péter"
+author: "Antal Dániel" # lehet üres
+curator: "Kovács Júlia" # lehet üres, ezt használjuk, ha csak pár szó ajánlással figyelembe ajánlunk más anyagot
+editor: "Nagy Péter" # lehet üres
 
 categories:
-  - AI
-  - Zeneipar
-  - Adatpolitika
+  - Tech  # egyeznie kell a https://dunai-szemle.netlify.app/ rovatok nevével.
+
+
 ---
 
-lead_summary paragraph(s)
+Egy bekezdés rövid lead az anyagról, ha lehet, legyen.
 
-editor summary paragprah(s)
+A második opcionális bekezdés egy rövid összefoglaló, szubjektív lehet,
+de ha értékelés van, az kerüljön lejjebb. Lehet elhelyezni URLt is a szövegben
+a [Ez lesz a szövegben aláhúzva](http:/example.com/ezalink) markdown jelölléssel.
 
-editor recommendation paragraph(s)
+A következő, optionális bekezdés az összefoglaló, mi tetszett a szemlézett anyagban,
+miért ajánlottad, miért érdemes komolyan venni. Lehet minimálisan formázni a szöveget
+a _dőltbetű_ vagy **kövér (bold)** jelekkel.
 
-editor_critique paragraph(s)
+editor_critique paragraph(s): opcionális, röviden, hogy mit volna jó javítani,
+mivel nem értessz egyet, mi volna továbbfejlesztendő
+
+Eredetileg megjelent: Forrás [Forras blog](http:/example.com)
