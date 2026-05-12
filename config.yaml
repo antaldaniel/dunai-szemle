@@ -3,8 +3,7 @@ disablePathToLower: false
 languageCode: hu
 title: Dunai szemle
 theme: Hugo-Octopress
-paginate:
-  pagerSize: 6
+paginate: 6
 permalinks:
   post: /blog/:year-:month-:day-:title/
 params:
