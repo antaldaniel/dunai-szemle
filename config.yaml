@@ -1,7 +1,7 @@
-baseurl: https://dunai-szemle.netlify.app/
+baseurl: https://duna-szemle.hu/
 disablePathToLower: false
 languageCode: hu
-title: Dunai szemle
+title: Duna Szemle
 theme: Hugo-Octopress
 paginate: 6
 permalinks:
@@ -9,7 +9,6 @@ permalinks:
 params:
   author: Dunai Szemle szerkesztők
   favicon: "duna.png"
-  bitbucket: https://github.com/antaldaniel/dunai-szemle
   continueReadingText: Tovább &rarr;
   description: ''
   customCSS:
@@ -17,7 +16,7 @@ params:
   disableGoogleFonts: true
   disableReadingTime: false
   generateTaxonomyList: true
-  github: https://github.com/parsiya/Hugo-Octopress
+  github: https://github.com/antaldaniel/dunai-szemle
   navigationNewWindow: true
   notFoundHeader: Itt még nem található semmi
   notFoundText: 'Lépjen vissza a böngészőben, használja a Rovatok vagy Keresés funkciót.\r\n  '
@@ -59,11 +58,11 @@ menu:
       URL: /categories/k%C3%B6rnyezet"
       weight: 5
     - Name: "Substack →"
-      URL: https://dunaiszemle.substack.com/
+      URL: https://dunaszemle.substack.com/
       weight: 99
   sidebar:
     - Name: Blog
-      URL: https://dunaiszemle.substack.com/
+      URL: https://dunaszemle.substack.com/
       weight: 0
     - Name: Rólunk
       URL: /rolunk/
