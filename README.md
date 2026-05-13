@@ -1,5 +1,7 @@
 # Dunai szemle
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff592674-8377-4642-9b77-af3ef2168049/deploy-status)](https://app.netlify.com/projects/duna-szemle/deploys)
+
 A Dunai Szemle egy független magyar közéleti, kulturális és regionális szemleprojekt.  
 A célunk egy olyan félig automatizált, nyílt forráskodú és hosszú távon 
 fenntartható publikációs infrastruktúra létrehozása, amely 

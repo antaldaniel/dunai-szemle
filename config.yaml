@@ -1,4 +1,4 @@
-baseurl: https://duna-szemle.hu/
+baseurl: https://duna-szemle.netlify.app/
 disablePathToLower: false
 languageCode: hu
 title: Duna Szemle
