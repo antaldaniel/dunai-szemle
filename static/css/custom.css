@@ -161,6 +161,31 @@ aside.sidebar a:hover {
 aside.sidebar a:active {
     color: #00348A
 }
+/* social links */
+.social-links {
+    margin-top: 0.5em;
+}
+
+.social-links .sidebar-nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.social-links a {
+    display: inline-block;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.social-links a:hover {
+    opacity: 1;
+}
+
+.social-links i {
+    vertical-align: middle;
+}
 a {
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
