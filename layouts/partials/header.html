@@ -46,7 +46,8 @@
 
   <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
   <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
-  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="author"
+      content="{{ with .Params.curator }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}">
 
   {{- /* Generator version for usage tracking */ -}}
   {{ hugo.Generator }}
