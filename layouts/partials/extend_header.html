@@ -1,0 +1,27 @@
+{{- /* Copy this file into your repository/layouts/partials and modify it */ -}}
+
+{{- /* Everything here will be added to the end of the <head> tag on every page */ -}}
+
+{{ if eq .Params.content_type "review" }}
+
+  {{ with .Params.curator }}
+    <meta name="author" content="{{ . }}">
+    <meta name="dcterms.contributor" content="{{ . }}">
+  {{ end }}
+
+  {{ with .Params.original_source }}
+    <meta name="dcterms.source" content="{{ . }}">
+  {{ end }}
+
+  {{ with .Params.original_date }}
+    <meta name="dcterms.created" content="{{ . }}">
+  {{ end }}
+
+  {{ with .Params.original_url }}
+    <meta property="og:see_also" content="{{ . }}">
+  {{ end }}
+
+  <meta name="dcterms.date"
+        content="{{ .Date.Format "2006-01-02" }}">
+
+{{ end }}
