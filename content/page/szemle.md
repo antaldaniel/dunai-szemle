@@ -1,17 +1,21 @@
 ---
 date: '2026-05-09'
-title: Szemle
+title: Közpolitikai jelentőségű anyagok és cikkek szemléje
 url: /szemle/
 ---
 
 Szeretné, ha linkelnénk, szemléznénk a közpolitikai, közéleti javaslatait? Akár 
-magánszemélyként, akár társadalmi, érdekképviseleti szervezetként, párként 
+magánszemélyként, akár társadalmi, érdekképviseleti szervezetként, pártként 
 tette ezeket közzé, a szemlézés jogi és praktikus feltétele, hogy az alábbi 
-címre feltölt ebből egy példányt:
+címre feltölt az anyagból példányt, amennyiben az máshol nem jelent még meg:
 
-[Dunai szemle / Danube Review](https://zenodo.org/communities/danube-review/settings)
+[Duna szemle / Danube Review](https://zenodo.org/communities/danube-review/settings)
 
-A _Dunai szemle_ egy kísérleti kiadvány, amelyet egyelőre a szerkesztők válogatnak, 
+Amennyiben már megjelent az anyag, akkor ebbe 
+a [Google Formba](https://docs.google.com/forms/d/e/1FAIpQLSdq5O2I6s9K9-pJHkp924MjxXtJ7s3w5Vq5veTUrxhxSVapPQ/viewform) 
+lehet beírni egy nagyon rövid, minimum egy, maximum 5 bekezdéses ajánlót. 
+
+A _Duna szemle_ egy kísérleti kiadvány, amelyet egyelőre a szerkesztők válogatnak, 
 nem lektorálnak. A lektorálás folyamata a következő:
 
 1. Feltöltenek egy tematikaileg releváns, szerzővel, címmel, alcímmel, rövid 
@@ -30,8 +34,6 @@ anyagi ellentételezés ellenében készült tanácsadói javaslatok.
 - A repozitóriumba töltött anyagokat rövidítve vagy teljes terjedelmében
 természetesen bárhol máshol is megjelentethetik az alkotók. 
 - Már megjelent írásokat is várunk.
-
-
 
 ### Választható közlési engedélyek
 
