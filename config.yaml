@@ -18,7 +18,7 @@ params:
   generateTaxonomyList: true
   github: https://github.com/antaldaniel/dunai-szemle
   navigationNewWindow: true
-  notFoundHeader: Itt még nem található semmi
+  notFoundHeader: Ide még nem került anyag
   notFoundText: 'Lépjen vissza a böngészőben, használja a Rovatok vagy Keresés funkciót.\r\n  '
   rss: true
   searchEngineURL: https://www.google.com/search
@@ -42,12 +42,15 @@ menu:
     - Name: Társadalom
       URL: /categories/t%C3%A1rsadalom/
       weight: 1
+    - Name: Igazság
+      URL: /categories/igazság/
+      weight: 3
     - Name: Kult
       URL: /categories/kult%C3%BAra/
-      weight: 3
+      weight: 4
     - Name: "Tech & Tudomány"
       URL: /categories/tech/
-      weight: 4
+      weight: 5
     - Name: Duna
       URL: /categories/duna/
       weight: 20
@@ -56,7 +59,7 @@ menu:
       weight: 19
     - Name: Környezet
       URL: /categories/k%C3%B6rnyezet"
-      weight: 5
+      weight: 6
     - Name: "Substack →"
       URL: https://dunaszemle.substack.com/
       weight: 99
@@ -67,7 +70,7 @@ menu:
     - Name: Rólunk
       URL: /rolunk/
       weight: 1
-    - Name: Szemle
+    - Name: Szemlézés menete
       URL: /szemle/
       weight: 2
 markup:
