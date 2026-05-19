@@ -31,6 +31,12 @@
   {{ $hasPrevious = true }}
   {{ end }}
 
+  {{ with .Params.original_author }}
+  {{ if $hasPrevious }} · {{ end }}
+  Eredeti szerző: {{ . }}
+  {{ $hasPrevious = true }}
+  {{ end }}
+
   {{ with .Params.curator }}
    {{ if $hasPrevious }} · {{ end }}
   Kurátor: {{ . }}

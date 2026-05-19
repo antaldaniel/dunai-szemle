@@ -4,6 +4,11 @@
 
 {{ if eq .Params.content_type "review" }}
 
+  {{ with .Params.original_author }}
+    <meta name="author" content="{{ . }}">
+    <meta name="dcterms.creator" content="{{ . }}">
+  {{ end }}
+
   {{ with .Params.curator }}
     <meta name="author" content="{{ . }}">
     <meta name="dcterms.contributor" content="{{ . }}">
